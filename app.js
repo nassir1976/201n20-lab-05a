@@ -122,15 +122,15 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
-  var ReturnArray = [];
+  var Array = [];
   // calculate product of first two values
   var aTimesb = multiply((multArr[0]), (multArr[1]));
   aTimesb = aTimesb[0];
   var finalProduct = multiply(aTimesb, multArr[2]);
   finalProduct = finalProduct[0];
-  ReturnArray[0] = finalProduct;
-  ReturnArray[1] = `The numbers ${multArr[0]},${multArr[1]},${multArr[2]} have a product of ${finalProduct}.`
-  return ReturnArray;
+  Array[0] = finalProduct;
+  Array[1] = `The numbers ${multArr[0]},${multArr[1]},${multArr[2]} have a product of ${finalProduct}.`
+  return Array;
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
